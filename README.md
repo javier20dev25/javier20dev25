@@ -14,8 +14,8 @@ Hola, soy **Javier**. Funcionario aduanero y desarrollador. Desde **2018** soy i
 | Repos públicos | 12 |
 | Seguidores | 1 |
 | Estrellas (total) | 0 |
-| PRs enviados a proyectos ajenos | 49 |
-| Issues abiertos en proyectos ajenos | 1 |
+| PRs enviados a proyectos ajenos | 38 |
+| Issues abiertos en proyectos ajenos | 0 |
 
 Lenguajes principales:
 `TypeScript` ████░░░░░░ 4
