@@ -43,8 +43,8 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 ## 📊 Estadísticas y Métricas de Actividad
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repos_Públicos-12-238636?style=flat-square&logo=github" alt="Repos" />
-  <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-38-8957e5?style=flat-square&logo=git" alt="PRs" />
+  <img src="https://img.shields.io/badge/Repos_Públicos-14-238636?style=flat-square&logo=github" alt="Repos" />
+  <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-40-8957e5?style=flat-square&logo=git" alt="PRs" />
   <img src="https://img.shields.io/badge/Estrellas_Totales-0-e3b341?style=flat-square&logo=star" alt="Stars" />
   <img src="https://img.shields.io/badge/Seguidores-1-58a6ff?style=flat-square&logo=github" alt="Followers" />
 </div>
@@ -95,14 +95,22 @@ Forks propios y PRs/issues que he hecho en repositorios de terceros. Se actualiz
 
 | Repo | Descripción | Actualizado |
 |---|---|---|
+| [fastify](https://github.com/javier20dev25/fastify) | Fast and low overhead web framework, for Node.js | 2026-09-24 |
+| [undici](https://github.com/javier20dev25/undici) | An HTTP/1.1 client, written from scratch for Node.js | 2026-09-24 |
 | [typescript-sdk-1](https://github.com/javier20dev25/typescript-sdk-1) | The official TypeScript SDK for Model Context Protocol servers and clients | 2026-08-02 |
 
 **PRs e issues en repos de terceros:**
 
+### [fastify/fastify](https://github.com/fastify/fastify)
+
+- PR #7050 [ci: verify yarn installer checksum before executing](https://github.com/fastify/fastify/pull/7050) — 2026-09-24
 ### [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)
 
-- PR #2603 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — 2026-09-23
+- PR #2603 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — 2026-09-24
 - PR #2602 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2602) — 2026-08-18
+### [nodejs/undici](https://github.com/nodejs/undici)
+
+- PR #5880 [build: publish undici and undici-types with npm provenance](https://github.com/nodejs/undici/pull/5880) — 2026-09-24
 ### [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp)
 
 - PR #303 [Harden CI/CD supply chain (7 recommendations)](https://github.com/punkpeye/fastmcp/pull/303) — 2026-08-04
