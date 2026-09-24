@@ -104,13 +104,13 @@ Forks propios y PRs/issues que he hecho en repositorios de terceros. Se actualiz
 ### [fastify/fastify](https://github.com/fastify/fastify)
 
 - PR #7050 [ci: verify yarn installer checksum before executing](https://github.com/fastify/fastify/pull/7050) — 2026-09-24
+### [nodejs/undici](https://github.com/nodejs/undici)
+
+- PR #5880 [build: publish undici and undici-types with npm provenance](https://github.com/nodejs/undici/pull/5880) — 2026-09-24
 ### [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)
 
 - PR #2603 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — 2026-09-24
 - PR #2602 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2602) — 2026-08-18
-### [nodejs/undici](https://github.com/nodejs/undici)
-
-- PR #5880 [build: publish undici and undici-types with npm provenance](https://github.com/nodejs/undici/pull/5880) — 2026-09-24
 ### [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp)
 
 - PR #303 [Harden CI/CD supply chain (7 recommendations)](https://github.com/punkpeye/fastmcp/pull/303) — 2026-08-04
