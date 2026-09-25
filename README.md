@@ -43,7 +43,7 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 ## 📊 Estadísticas y Métricas de Actividad
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repos_Públicos-14-238636?style=flat-square&logo=github" alt="Repos" />
+  <img src="https://img.shields.io/badge/Repos_Públicos-15-238636?style=flat-square&logo=github" alt="Repos" />
   <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-40-8957e5?style=flat-square&logo=git" alt="PRs" />
   <img src="https://img.shields.io/badge/Estrellas_Totales-0-e3b341?style=flat-square&logo=star" alt="Stars" />
   <img src="https://img.shields.io/badge/Seguidores-1-58a6ff?style=flat-square&logo=github" alt="Followers" />
@@ -72,6 +72,7 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 
 | Repo | Descripción | Lenguaje | Estrellas | Actualizado |
 |---|---|---|---|---|
+| [sentinel-benchmark](https://github.com/javier20dev25/sentinel-benchmark) | Tool-agnostic evasion benchmark: 50 red-team tests across 10 categories + FP/FN corpus. Run it against ANY security scanner. | `JavaScript` | 0 | 2026-09-24 |
 | [sentinel-cli](https://github.com/javier20dev25/sentinel-cli) | Sentinel Security Oracle — CLI. Supply chain enforcement layer, SAST scanner, integrity verification, and local threat intelligence. | `TypeScript` | 0 | 2026-09-23 |
 | [sentinel-oracle](https://github.com/javier20dev25/sentinel-oracle) | Sentinel Oracle Core — AI-powered security assistant: multi-provider, SAST, SecuriGit, MCP, and threat intelligence. CLI 2. | `TypeScript` | 0 | 2026-09-23 |
 | [Merx](https://github.com/javier20dev25/Merx) | Clasificación arancelaria asistida con IA | `Jupyter Notebook` | 0 | 2026-07-28 |
