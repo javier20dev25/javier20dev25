@@ -46,7 +46,7 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
   <img src="https://img.shields.io/badge/Repos_Públicos-15-238636?style=flat-square&logo=github" alt="Repos" />
   <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-40-8957e5?style=flat-square&logo=git" alt="PRs" />
   <img src="https://img.shields.io/badge/Estrellas_Totales-0-e3b341?style=flat-square&logo=star" alt="Stars" />
-  <img src="https://img.shields.io/badge/Seguidores-1-58a6ff?style=flat-square&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/badge/Seguidores-2-58a6ff?style=flat-square&logo=github" alt="Followers" />
 </div>
 
 <div align="center">
