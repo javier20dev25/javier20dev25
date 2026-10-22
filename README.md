@@ -72,7 +72,7 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 
 | Repo | Descripción | Lenguaje | Estrellas | Actualizado |
 |---|---|---|---|---|
-| [sentinel-cli](https://github.com/javier20dev25/sentinel-cli) | Sentinel Security Oracle — CLI. Supply chain enforcement layer, SAST scanner, integrity verification, and local threat intelligence. | `TypeScript` | 0 | 2026-10-21 |
+| [sentinel-cli](https://github.com/javier20dev25/sentinel-cli) | Sentinel Security Oracle — CLI. Supply chain enforcement layer, SAST scanner, integrity verification, and local threat intelligence. | `TypeScript` | 0 | 2026-10-22 |
 | [sentinel-cloud-client](https://github.com/javier20dev25/sentinel-cloud-client) | Authenticated client for the Sentinel Cloud API (protocol and transport only) | `TypeScript` | 0 | 2026-10-19 |
 | [sentinel-audit](https://github.com/javier20dev25/sentinel-audit) | Sentinel Audit: security orchestrator for verifiable SAST/evidence pipelines | `JavaScript` | 0 | 2026-10-19 |
 | [sentinel-oracle](https://github.com/javier20dev25/sentinel-oracle) | Sentinel Oracle Core — AI-powered security assistant: multi-provider, SAST, SecuriGit, MCP, and threat intelligence. CLI 2. | `TypeScript` | 0 | 2026-10-19 |
