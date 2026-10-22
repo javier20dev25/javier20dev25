@@ -44,7 +44,7 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 
 <div align="center">
   <img src="https://img.shields.io/badge/Repos_Públicos-17-238636?style=flat-square&logo=github" alt="Repos" />
-  <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-45-8957e5?style=flat-square&logo=git" alt="PRs" />
+  <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-0-8957e5?style=flat-square&logo=git" alt="PRs" />
   <img src="https://img.shields.io/badge/Estrellas_Totales-0-e3b341?style=flat-square&logo=star" alt="Stars" />
   <img src="https://img.shields.io/badge/Seguidores-2-58a6ff?style=flat-square&logo=github" alt="Followers" />
 </div>
@@ -102,35 +102,7 @@ Forks propios y PRs/issues que he hecho en repositorios de terceros. Se actualiz
 | [undici](https://github.com/javier20dev25/undici) | An HTTP/1.1 client, written from scratch for Node.js | 2026-09-24 |
 | [typescript-sdk-1](https://github.com/javier20dev25/typescript-sdk-1) | The official TypeScript SDK for Model Context Protocol servers and clients | 2026-08-02 |
 
-**PRs e issues en repos de terceros:**
-
-### [fastify/fastify](https://github.com/fastify/fastify)
-
-- PR #7050 [ci: verify yarn installer checksum before executing](https://github.com/fastify/fastify/pull/7050) — 2026-09-24
-### [nodejs/undici](https://github.com/nodejs/undici)
-
-- PR #5880 [build: publish undici and undici-types with npm provenance](https://github.com/nodejs/undici/pull/5880) — 2026-09-24
-### [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)
-
-- PR #2603 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — 2026-09-24
-- PR #2602 [Pin GitHub Actions to immutable SHAs](https://github.com/modelcontextprotocol/typescript-sdk/pull/2602) — 2026-08-18
-### [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp)
-
-- PR #303 [Harden CI/CD supply chain (7 recommendations)](https://github.com/punkpeye/fastmcp/pull/303) — 2026-08-04
-### [yackermann/awesome-webauthn](https://github.com/yackermann/awesome-webauthn)
-
-- PR #136 [Add Sentinel Oracle to Server Libraries](https://github.com/yackermann/awesome-webauthn/pull/136) — 2026-08-02
-### [ligurio/awesome-ci](https://github.com/ligurio/awesome-ci)
-
-- PR #180 [Add Sentinel CLI to CI security tools](https://github.com/ligurio/awesome-ci/pull/180) — 2026-08-02
-### [sbilly/awesome-security](https://github.com/sbilly/awesome-security)
-
-- PR #664 [Add Sentinel Oracle to Authentication section](https://github.com/sbilly/awesome-security/pull/664) — 2026-08-02
-- PR #665 [Add Sentinel CLI to Development section](https://github.com/sbilly/awesome-security/pull/665) — 2026-08-02
-- PR #668 [Add Sentinel Cloud to Development section](https://github.com/sbilly/awesome-security/pull/668) — 2026-08-02
-### [deepzz0/awesome-fido2](https://github.com/deepzz0/awesome-fido2)
-
-- PR #1 [Add Sentinel Oracle to Server section](https://github.com/deepzz0/awesome-fido2/pull/1) — 2026-07-30
+_(Aún no hay aportes visibles a proyectos ajenos.)_
 <!-- APORTES:END -->
 
 ---
