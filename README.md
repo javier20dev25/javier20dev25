@@ -44,8 +44,8 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 ## 📊 Estadísticas y Métricas de Actividad
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Repos_Públicos-19-238636?style=flat-square&logo=github" alt="Repos" />
-  <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-47-8957e5?style=flat-square&logo=git" alt="PRs" />
+  <img src="https://img.shields.io/badge/Repos_Públicos-22-238636?style=flat-square&logo=github" alt="Repos" />
+  <img src="https://img.shields.io/badge/PRs_en_Proyectos_Ajenos-50-8957e5?style=flat-square&logo=git" alt="PRs" />
   <img src="https://img.shields.io/badge/Estrellas_Totales-0-e3b341?style=flat-square&logo=star" alt="Stars" />
   <img src="https://img.shields.io/badge/Seguidores-2-58a6ff?style=flat-square&logo=github" alt="Followers" />
 </div>
@@ -73,9 +73,9 @@ Diseñado y desarrollado por **NIGHTTRACE Security Intelligence**, **Sentinel** 
 
 | Repo | Descripción | Lenguaje | Estrellas | Actualizado |
 |---|---|---|---|---|
+| [sentinel-cli](https://github.com/javier20dev25/sentinel-cli) | Local-first SAST, supply chain audit, build intelligence, skills/MCP for AI agents. No Cloud account required for core scans. | `TypeScript` | 0 | 2026-10-23 |
 | [sentinel-oracle](https://github.com/javier20dev25/sentinel-oracle) | Physically isolated merge authorization server. Enforce authorize-before-merge from a separate device. | `TypeScript` | 0 | 2026-10-22 |
 | [sentinel-audit](https://github.com/javier20dev25/sentinel-audit) | Audit orchestrator for deps, PRs, and CI pipelines. Structured reporting with evidence verification. Part of the Sentinel platform. | `JavaScript` | 0 | 2026-10-22 |
-| [sentinel-cli](https://github.com/javier20dev25/sentinel-cli) | Local-first SAST, supply chain audit, build intelligence, skills/MCP for AI agents. No Cloud account required for core scans. | `TypeScript` | 0 | 2026-10-22 |
 | [sentinel-cloud-client](https://github.com/javier20dev25/sentinel-cloud-client) | Authenticated client for the Sentinel Cloud API (protocol and transport only) | `TypeScript` | 0 | 2026-10-19 |
 | [sentinel-benchmark](https://github.com/javier20dev25/sentinel-benchmark) | Tool-agnostic evasion benchmark: 50 red-team tests across 10 categories + FP/FN corpus. Run it against ANY security scanner. | `JavaScript` | 0 | 2026-09-24 |
 | [Merx](https://github.com/javier20dev25/Merx) | Clasificación arancelaria asistida con IA | `Jupyter Notebook` | 0 | 2026-07-28 |
@@ -99,20 +99,31 @@ Forks propios y PRs/issues que he hecho en repositorios de terceros. Se actualiz
 
 | Repo | Descripción | Actualizado |
 |---|---|---|
+| [requests](https://github.com/javier20dev25/requests) | A simple, yet elegant, HTTP library. | 2026-10-23 |
+| [fastify-compress](https://github.com/javier20dev25/fastify-compress) | Fastify compression utils | 2026-10-23 |
+| [cyclonedx-cli](https://github.com/javier20dev25/cyclonedx-cli) | CycloneDX CLI tool for SBOM analysis, merging, diffs and format conversions. | 2026-10-22 |
+| [fastify](https://github.com/javier20dev25/fastify) | Fast and low overhead web framework, for Node.js | 2026-10-22 |
 | [js-genai](https://github.com/javier20dev25/js-genai) | TypeScript/JavaScript SDK for Gemini and Vertex AI. | 2026-10-22 |
-| [fastify](https://github.com/javier20dev25/fastify) | Fast and low overhead web framework, for Node.js | 2026-09-24 |
 | [undici](https://github.com/javier20dev25/undici) | An HTTP/1.1 client, written from scratch for Node.js | 2026-09-24 |
 | [typescript-sdk-1](https://github.com/javier20dev25/typescript-sdk-1) | The official TypeScript SDK for Model Context Protocol servers and clients | 2026-08-02 |
 | [deprecated-generative-ai-js](https://github.com/javier20dev25/deprecated-generative-ai-js) | This SDK is now deprecated, use the new unified Google GenAI SDK. | 2025-12-02 |
 
 **PRs e issues en repos de terceros:**
 
+### [fastify/fastify-compress](https://github.com/fastify/fastify-compress)
+
+- PR #439 [docs: clarify disabling request decompression with globalDecompression: false](https://github.com/fastify/fastify-compress/pull/439) — 2026-10-23
+### [CycloneDX/cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli)
+
+- PR #522 [ci: pin GitHub Actions to immutable full-length commit SHAs](https://github.com/CycloneDX/cyclonedx-cli/pull/522) — 2026-10-22
+- issue #521 [ci: scope workflow permissions to minimum required — reduce contents:write blast radius](https://github.com/CycloneDX/cyclonedx-cli/issues/521) — 2026-10-22
+### [fastify/fastify](https://github.com/fastify/fastify)
+
+- PR #7141 [ci: replace unverified remote curl install with corepack enable in package-manager-ci](https://github.com/fastify/fastify/pull/7141) — 2026-10-22
+- PR #7050 [ci: verify yarn installer checksum before executing](https://github.com/fastify/fastify/pull/7050) — 2026-09-24
 ### [googleapis/js-genai](https://github.com/googleapis/js-genai)
 
 - PR #2091 [fix(security): remove automatic prepare lifecycle script to prevent unprompted shell execution](https://github.com/googleapis/js-genai/pull/2091) — 2026-10-22
-### [fastify/fastify](https://github.com/fastify/fastify)
-
-- PR #7050 [ci: verify yarn installer checksum before executing](https://github.com/fastify/fastify/pull/7050) — 2026-09-24
 ### [nodejs/undici](https://github.com/nodejs/undici)
 
 - PR #5880 [build: publish undici and undici-types with npm provenance](https://github.com/nodejs/undici/pull/5880) — 2026-09-24
@@ -137,6 +148,24 @@ Forks propios y PRs/issues que he hecho en repositorios de terceros. Se actualiz
 ### [deepzz0/awesome-fido2](https://github.com/deepzz0/awesome-fido2)
 
 - PR #1 [Add Sentinel Oracle to Server section](https://github.com/deepzz0/awesome-fido2/pull/1) — 2026-07-30
+### [anchore/grype](https://github.com/anchore/grype)
+
+- issue #3830 [ci: set persist-credentials: false in release workflow to reduce credential exposure window](https://github.com/anchore/grype/issues/3830) — 2026-10-23
+### [sigstore/cosign](https://github.com/sigstore/cosign)
+
+- issue #5181 [security: pin reusable release workflows and composite actions to immutable commit SHAs](https://github.com/sigstore/cosign/issues/5181) — 2026-10-22
+### [Qiskit/qiskit](https://github.com/Qiskit/qiskit)
+
+- issue #17305 [Hardening: verify cryptographic hash for rustup installer in tools/install_rust.sh](https://github.com/Qiskit/qiskit/issues/17305) — 2026-10-22
+### [anchore/syft](https://github.com/anchore/syft)
+
+- issue #5456 [security: document checksum-verified install alongside curl-pipe method in README and Taskfile](https://github.com/anchore/syft/issues/5456) — 2026-10-22
+### [in-toto/in-toto](https://github.com/in-toto/in-toto)
+
+- issue #957 [security: consider explicit password buffer zeroing after key decryption in CLI entry points](https://github.com/in-toto/in-toto/issues/957) — 2026-10-22
+### [finos/FDC3](https://github.com/finos/FDC3)
+
+- issue #2320 [Security Hardening: replace unsafe innerHTML interpolation with textContent in toolbox logging](https://github.com/finos/FDC3/issues/2320) — 2026-10-22
 <!-- APORTES:END -->
 
 ---
