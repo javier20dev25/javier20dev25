@@ -38,10 +38,10 @@ Los estados son los observados en GitHub al actualizar este perfil; pueden cambi
 
 <p>
   <a href="https://github.com/javier20dev25">
-    <img src="https://github-readme-stats.vercel.app/api?username=javier20dev25&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&rank_icon=github" alt="Estadísticas públicas de GitHub" height="160" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=javier20dev25&theme=transparent" alt="Estadísticas públicas de GitHub" height="160" />
   </a>
   <a href="https://github.com/javier20dev25">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=javier20dev25&layout=compact&theme=transparent&hide_border=true&langs_count=6" alt="Lenguajes más usados en repositorios públicos" height="160" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=javier20dev25&theme=transparent" alt="Lenguajes más usados en repositorios públicos" height="160" />
   </a>
 </p>
 
