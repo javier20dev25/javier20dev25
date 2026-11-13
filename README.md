@@ -16,22 +16,28 @@ Sentinel es un conjunto de herramientas de seguridad defensiva con funciones dis
 - **[Sentinel Audit](https://github.com/javier20dev25/sentinel-audit)** — orquesta analizadores, registra cobertura y evidencia, y deja la adjudicación final a una persona.
 - **[Sentinel Oracle](https://github.com/javier20dev25/sentinel-oracle)** — autorización física de merges mediante WebAuthn/FIDO2 con autoridad separada del equipo de desarrollo.
 
-También mantengo [Sentinel Benchmark](https://github.com/javier20dev25/sentinel-benchmark), un corpus para evaluar detección y evasiones, y [Sentinel Decoys](https://github.com/javier20dev25/sentinel-decoys), un laboratorio de señales defensivas.
+También mantengo [Sentinel Benchmark](https://github.com/javier20dev25/sentinel-benchmark), un benchmark tool-agnostic de 50 pruebas de evasión en 10 categorías que se puede ejecutar contra cualquier escáner, y [Sentinel Decoys](https://github.com/javier20dev25/sentinel-decoys), un laboratorio de vectores de prueba (secretos falsos, firma EICAR y payloads ofuscados) para validar señales defensivas.
 
 ## Trabajo en proyectos de la comunidad
 
 ### Pull requests abiertos
 
-- [Fastify: documentar `globalDecompression: false`](https://github.com/fastify/fastify-compress/pull/439) — aclaración del comportamiento de descompresión.
-- [Fastify: sustituir una instalación remota sin verificar por Corepack](https://github.com/fastify/fastify/pull/7141) — hardening del flujo de CI.
-- [Fastify: verificar el checksum del instalador de Yarn](https://github.com/fastify/fastify/pull/7050) — integridad del instalador.
-- [CycloneDX CLI: fijar GitHub Actions a SHAs completos](https://github.com/CycloneDX/cyclonedx-cli/pull/522) — reproducibilidad de CI.
-- [Google GenAI SDK: retirar un script `prepare` automático](https://github.com/googleapis/js-genai/pull/2091) — reducir ejecución inesperada durante la instalación.
+- [rulebook-ai: usar la acción `astral-sh/setup-uv` en lugar de `curl`/`bash` sin fijar](https://github.com/botingw/rulebook-ai/pull/78) — instalación reproducible en CI.
+- [ESP-Matter: fijar el script de instalación de esp-emulator a un commit SHA inmutable](https://github.com/espressif/esp-matter/pull/1919) — integridad de la cadena de suministro.
+- [OpenLLMetry: corregir el disparador de evento y el parseo de acciones del job `lint-pr`](https://github.com/traceloop/openllmetry/pull/4675) — estabilidad de CI.
+- [NASA SpaceWASM: sanear el contenido que llega por artefactos en el workflow de comentarios](https://github.com/nasa/spacewasm/pull/220) — mitigación de inyección vía artefactos.
+- [Fastify Compress: documentar cómo desactivar la descompresión con `globalDecompression: false`](https://github.com/fastify/fastify-compress/pull/439) — aclaración del comportamiento.
+- [CycloneDX CLI: fijar GitHub Actions a SHAs completos e inmutables](https://github.com/CycloneDX/cyclonedx-cli/pull/522) — reproducibilidad de CI.
+- [Fastify: reemplazar la instalación remota sin verificar por `corepack` en `package-manager-ci`](https://github.com/fastify/fastify/pull/7141) — hardening del flujo de CI.
+- [Google GenAI SDK: retirar el script `prepare` automático](https://github.com/googleapis/js-genai/pull/2091) — evitar ejecución de shell no solicitada durante la instalación.
+- [Fastify: verificar el checksum del instalador de Yarn antes de ejecutarlo](https://github.com/fastify/fastify/pull/7050) — integridad del instalador.
+- [MCP TypeScript SDK: fijar GitHub Actions a SHAs inmutables](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — reproducibilidad de CI.
 
 ### Pull requests fusionados
 
+- [FakerPress: usar la acción `oven-sh/setup-bun` en el workflow `generate-zip`](https://github.com/bordoni/fakerpress/pull/250).
 - [FastMCP: recomendaciones de hardening de CI/CD](https://github.com/punkpeye/fastmcp/pull/303).
-- [Awesome FIDO2: añadir Sentinel Oracle al catálogo](https://github.com/deepzz0/awesome-fido2/pull/1).
+- [Awesome FIDO2: añadir Sentinel Oracle al catálogo (sección Server)](https://github.com/deepzz0/awesome-fido2/pull/1).
 
 Los estados son los observados en GitHub al actualizar este perfil; pueden cambiar después.
 
