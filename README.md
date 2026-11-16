@@ -25,16 +25,17 @@ También mantengo [Sentinel Benchmark](https://github.com/javier20dev25/sentinel
 - [rulebook-ai: usar la acción `astral-sh/setup-uv` en lugar de `curl`/`bash` sin fijar](https://github.com/botingw/rulebook-ai/pull/78) — instalación reproducible en CI.
 - [ESP-Matter: fijar el script de instalación de esp-emulator a un commit SHA inmutable](https://github.com/espressif/esp-matter/pull/1919) — integridad de la cadena de suministro.
 - [OpenLLMetry: corregir el disparador de evento y el parseo de acciones del job `lint-pr`](https://github.com/traceloop/openllmetry/pull/4675) — estabilidad de CI.
-- [NASA SpaceWASM: sanear el contenido que llega por artefactos en el workflow de comentarios](https://github.com/nasa/spacewasm/pull/220) — mitigación de inyección vía artefactos.
 - [Fastify Compress: documentar cómo desactivar la descompresión con `globalDecompression: false`](https://github.com/fastify/fastify-compress/pull/439) — aclaración del comportamiento.
 - [CycloneDX CLI: fijar GitHub Actions a SHAs completos e inmutables](https://github.com/CycloneDX/cyclonedx-cli/pull/522) — reproducibilidad de CI.
 - [Fastify: reemplazar la instalación remota sin verificar por `corepack` en `package-manager-ci`](https://github.com/fastify/fastify/pull/7141) — hardening del flujo de CI.
 - [Google GenAI SDK: retirar el script `prepare` automático](https://github.com/googleapis/js-genai/pull/2091) — evitar ejecución de shell no solicitada durante la instalación.
 - [Fastify: verificar el checksum del instalador de Yarn antes de ejecutarlo](https://github.com/fastify/fastify/pull/7050) — integridad del instalador.
 - [MCP TypeScript SDK: fijar GitHub Actions a SHAs inmutables](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — reproducibilidad de CI.
+- [BlackIce: descartar las consultas DNS de apps que ninguna regla nombra en block-all](https://github.com/ValentinTorassa/blackice/pull/86) — cierre del túnel DNS en el firewall.
 
 ### Pull requests fusionados
 
+- [NASA SpaceWASM: sanear el contenido que llega por artefactos en el workflow de comentarios](https://github.com/nasa/spacewasm/pull/220) — mitigación de inyección vía artefactos.
 - [FakerPress: usar la acción `oven-sh/setup-bun` en el workflow `generate-zip`](https://github.com/bordoni/fakerpress/pull/250).
 - [FastMCP: recomendaciones de hardening de CI/CD](https://github.com/punkpeye/fastmcp/pull/303).
 - [Awesome FIDO2: añadir Sentinel Oracle al catálogo (sección Server)](https://github.com/deepzz0/awesome-fido2/pull/1).
