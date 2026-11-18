@@ -20,27 +20,36 @@ También mantengo [Sentinel Benchmark](https://github.com/javier20dev25/sentinel
 
 ## Trabajo en proyectos de la comunidad
 
-### Pull requests abiertos
+Estado consultado con GitHub API el 2026-11-17: **23 pull requests abiertos** y **30 cerrados o fusionados**. [Ver todos los abiertos](https://github.com/search?q=author%3Ajavier20dev25+is%3Apr+is%3Aopen&type=pullrequests) · [Ver todos los cerrados](https://github.com/search?q=author%3Ajavier20dev25+is%3Apr+is%3Aclosed&type=pullrequests).
 
-- [rulebook-ai: usar la acción `astral-sh/setup-uv` en lugar de `curl`/`bash` sin fijar](https://github.com/botingw/rulebook-ai/pull/78) — instalación reproducible en CI.
-- [ESP-Matter: fijar el script de instalación de esp-emulator a un commit SHA inmutable](https://github.com/espressif/esp-matter/pull/1919) — integridad de la cadena de suministro.
-- [OpenLLMetry: corregir el disparador de evento y el parseo de acciones del job `lint-pr`](https://github.com/traceloop/openllmetry/pull/4675) — estabilidad de CI.
-- [Fastify Compress: documentar cómo desactivar la descompresión con `globalDecompression: false`](https://github.com/fastify/fastify-compress/pull/439) — aclaración del comportamiento.
-- [CycloneDX CLI: fijar GitHub Actions a SHAs completos e inmutables](https://github.com/CycloneDX/cyclonedx-cli/pull/522) — reproducibilidad de CI.
-- [Fastify: reemplazar la instalación remota sin verificar por `corepack` en `package-manager-ci`](https://github.com/fastify/fastify/pull/7141) — hardening del flujo de CI.
-- [Google GenAI SDK: retirar el script `prepare` automático](https://github.com/googleapis/js-genai/pull/2091) — evitar ejecución de shell no solicitada durante la instalación.
-- [Fastify: verificar el checksum del instalador de Yarn antes de ejecutarlo](https://github.com/fastify/fastify/pull/7050) — integridad del instalador.
-- [MCP TypeScript SDK: fijar GitHub Actions a SHAs inmutables](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — reproducibilidad de CI.
-- [BlackIce: descartar las consultas DNS de apps que ninguna regla nombra en block-all](https://github.com/ValentinTorassa/blackice/pull/86) — cierre del túnel DNS en el firewall.
+### Pull requests abiertos (selección reciente)
 
-### Pull requests fusionados
+- [securego/gosec #1839](https://github.com/securego/gosec/pull/1839) — evitar checkout del head del fork en el job privilegiado de revisión AI.
+- [ValentinTorassa/blackice #86](https://github.com/ValentinTorassa/blackice/pull/86) — descartar consultas DNS sin regla en `block-all`.
+- [botingw/rulebook-ai #78](https://github.com/botingw/rulebook-ai/pull/78) — usar `astral-sh/setup-uv` en lugar de `curl`/`bash` sin fijar.
+- [espressif/esp-matter #1919](https://github.com/espressif/esp-matter/pull/1919) — fijar el script de instalación de esp-emulator a un SHA inmutable.
+- [traceloop/openllmetry #4675](https://github.com/traceloop/openllmetry/pull/4675) — corregir disparador y parseo de acciones en `lint-pr`.
+- [fastify/fastify-compress #439](https://github.com/fastify/fastify-compress/pull/439) — documentar `globalDecompression: false`.
+- [CycloneDX/cyclonedx-cli #522](https://github.com/CycloneDX/cyclonedx-cli/pull/522) — fijar GitHub Actions a SHAs inmutables.
+- [fastify/fastify #7141](https://github.com/fastify/fastify/pull/7141) — reemplazar instalación remota sin verificar por `corepack`.
+- [fastify/fastify #7050](https://github.com/fastify/fastify/pull/7050) — verificar checksum del instalador de Yarn.
+- [googleapis/js-genai #2091](https://github.com/googleapis/js-genai/pull/2091) — retirar el script `prepare` automático.
+- [modelcontextprotocol/typescript-sdk #2603](https://github.com/modelcontextprotocol/typescript-sdk/pull/2603) — fijar GitHub Actions a SHAs inmutables.
+- [javier20dev25/sentinel-cli #5](https://github.com/javier20dev25/sentinel-cli/pull/5) — severidad de origen y dedupe de conteos en `audit-deps`.
 
-- [NASA SpaceWASM: sanear el contenido que llega por artefactos en el workflow de comentarios](https://github.com/nasa/spacewasm/pull/220) — mitigación de inyección vía artefactos.
-- [FakerPress: usar la acción `oven-sh/setup-bun` en el workflow `generate-zip`](https://github.com/bordoni/fakerpress/pull/250).
-- [FastMCP: recomendaciones de hardening de CI/CD](https://github.com/punkpeye/fastmcp/pull/303).
-- [Awesome FIDO2: añadir Sentinel Oracle al catálogo (sección Server)](https://github.com/deepzz0/awesome-fido2/pull/1).
+### Pull requests cerrados o fusionados (selección reciente)
 
-Los estados son los observados en GitHub al actualizar este perfil; pueden cambiar después.
+- [nasa/spacewasm #220](https://github.com/nasa/spacewasm/pull/220) — fusionado; sanear contenido suministrado por artefactos en el workflow de comentarios.
+- [bordoni/fakerpress #250](https://github.com/bordoni/fakerpress/pull/250) — fusionado; usar `oven-sh/setup-bun` en `generate-zip`.
+- [punkpeye/fastmcp #303](https://github.com/punkpeye/fastmcp/pull/303) — fusionado; hardening de CI/CD.
+- [deepzz0/awesome-fido2 #1](https://github.com/deepzz0/awesome-fido2/pull/1) — fusionado; añadir Sentinel Oracle al catálogo.
+- [javier20dev25/sentinel-cloud #48](https://github.com/javier20dev25/sentinel-cloud/pull/48) — fusionado; acceso por API token a scans completos de PR.
+- [javier20dev25/sentinel-cloud #47](https://github.com/javier20dev25/sentinel-cloud/pull/47) — fusionado; corregir desbordamiento móvil en tablas de Oracle.
+- [javier20dev25/sentinel-cli #7](https://github.com/javier20dev25/sentinel-cli/pull/7) — fusionado; progreso de motores en PR scans.
+- [nodejs/undici #5880](https://github.com/nodejs/undici/pull/5880) — cerrado; publicar con npm provenance.
+- [modelcontextprotocol/typescript-sdk #2602](https://github.com/modelcontextprotocol/typescript-sdk/pull/2602) — cerrado; fijar GitHub Actions a SHAs inmutables.
+
+Los estados pueden cambiar después de esta actualización.
 
 ## Actividad
 
