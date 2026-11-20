@@ -1,26 +1,48 @@
 # Javier Astaroth
 
-**Inspector de aduanas en Nicaragua · Desarrollador e investigador independiente de seguridad de software**
+**Fundador e investigador de seguridad en NIGHTTRACE Security Intelligence**  
+**Inspector de aduanas en Nicaragua · Desarrollador de herramientas defensivas de software**
 
-Construyo herramientas para analizar cambios de código, riesgos de cadena de suministro, seguridad en tiempo de ejecución y flujos de CI/CD. Mi trabajo combina investigación práctica con software abierto y evidencia reproducible.
+Construyo herramientas e infraestructura para analizar cambios de código, riesgos de cadena de suministro, seguridad en tiempo de ejecución, gobernanza de agentes de IA y flujos de CI/CD. Mi trabajo combina investigación práctica con software abierto y evidencia reproducible.
 
-**Enfoque:** seguridad de aplicaciones · supply chain · eBPF & runtime security · GitHub Actions · SAST · herramientas para desarrolladores y agentes de IA
+**Enfoque:** seguridad de aplicaciones · supply chain · eBPF & runtime security · gobernanza de agentes de IA · GitHub Actions · SAST · autorización física de merges
 
-## Sentinel
+---
+
+## NIGHTTRACE Security Intelligence
+
+NIGHTTRACE es una iniciativa de investigación e ingeniería de seguridad defensiva dedicada a diseñar planos de control deterministas, sensores de comportamiento a nivel kernel y herramientas de gobernanza técnica para entornos de desarrollo y producción.
+
+- **Filosofía:** Evidencia verificable antes que conjeturas, defensas deterministas fail-closed, trazabilidad de código y cero exageración de capacidades.
+- **Liderazgo:** Javier Astaroth ([@javier20dev25](https://github.com/javier20dev25)), Fundador & Lead Researcher.
+- **Contacto institucional:** `nighttracesec@gmail.com`
+- **Página de la agencia:** [sentinel-psi-nine.vercel.app/nighttrace](https://sentinel-psi-nine.vercel.app/nighttrace)
+
+---
+
+## Ecosistema de Productos
+
+### Gobernanza y Orquestación Defensiva
+
+- **[NOARTEX](https://github.com/javier20dev25/NOARTEX)** ([Página técnica](https://sentinel-psi-nine.vercel.app/noartex)) — Plano de control y gobernanza de capacidades defensivas para agentes de IA operando contra amenazas autónomas (como la clase ARTEX). Provee un motor de políticas fail-closed con niveles de riesgo R0–R3, bus de eventos reactivo con prioridades, ingesta continua de streaming eBPF (Tetragon), contención en laboratorio con rollback verificado y memoria de casos ligada por hashes SHA256 (latencia de ciclo cerrado: ~234 ms).
+
+### Plataforma Sentinel
 
 Sentinel es un conjunto de herramientas de seguridad defensiva con funciones distintas. Cada producto puede utilizarse por separado o integrarse en equipo.
 
 - **[Sentinel Cloud](https://sentinel-psi-nine.vercel.app/)** — servicio web para análisis de pull requests, evidencia de GitHub y colaboración de equipo.
 - **[Sentinel CLI](https://github.com/javier20dev25/sentinel-cli)** — análisis local y flujos de CI para código, dependencias y builds (sin cuenta obligatoria).
 - **[Sentinel Runtime](https://github.com/javier20dev25/sentinel-runtime)** — correlación de comportamiento de procesos en Linux/Kubernetes, ingestión eBPF (Tetragon), validación de Event Contract v2 y cadena de custodia de evidencia SQLite a prueba de manipulación.
-- **[Sentinel Audit](https://github.com/javier20dev25/sentinel-audit)** — orquesta analizadores, registra cobertura y evidencia, y deja la adjudicación final a una persona.
-- **[Sentinel Oracle](https://github.com/javier20dev25/sentinel-oracle)** — autorización física de merges mediante WebAuthn/FIDO2 con autoridad separada del equipo de desarrollo.
+- **[Sentinel Audit](https://github.com/javier20dev25/sentinel-audit)** ([Web](https://sentinel-psi-nine.vercel.app/sentinel-audit)) — orquesta analizadores, registra cobertura y evidencia, y deja la adjudicación final a una persona.
+- **[Sentinel Oracle](https://github.com/javier20dev25/sentinel-oracle)** ([Web](https://sentinel-psi-nine.vercel.app/sentinel-oracle)) — autorización física de merges mediante WebAuthn/FIDO2 con autoridad separada del equipo de desarrollo.
 
 También mantengo [Sentinel Benchmark](https://github.com/javier20dev25/sentinel-benchmark), un benchmark tool-agnostic de 50 pruebas de evasión en 10 categorías que se puede ejecutar contra cualquier escáner, y [Sentinel Decoys](https://github.com/javier20dev25/sentinel-decoys), un laboratorio de vectores de prueba (secretos falsos, firma EICAR y payloads ofuscados) para validar señales defensivas.
 
+---
+
 ## Trabajo en proyectos de la comunidad
 
-Estado consultado con GitHub API el 2026-11-17: **23 pull requests abiertos** y **30 cerrados o fusionados**. [Ver todos los abiertos](https://github.com/search?q=author%3Ajavier20dev25+is%3Apr+is%3Aopen&type=pullrequests) · [Ver todos los cerrados](https://github.com/search?q=author%3Ajavier20dev25+is%3Apr+is%3Aclosed&type=pullrequests).
+Estado consultado con GitHub API: **23 pull requests abiertos** y **30 cerrados o fusionados**. [Ver todos los abiertos](https://github.com/search?q=author%3Ajavier20dev25+is%3Apr+is%3Aopen&type=pullrequests) · [Ver todos los cerrados](https://github.com/search?q=author%3Ajavier20dev25+is%3Apr+is%3Aclosed&type=pullrequests).
 
 ### Pull requests abiertos (selección reciente)
 
@@ -51,6 +73,8 @@ Estado consultado con GitHub API el 2026-11-17: **23 pull requests abiertos** y 
 
 Los estados pueden cambiar después de esta actualización.
 
+---
+
 ## Actividad
 
 <p>
@@ -62,12 +86,19 @@ Los estados pueden cambiar después de esta actualización.
   </a>
 </p>
 
+---
+
 ## Investigación responsable
 
 Documento por separado las observaciones, los pasos reproducibles, las limitaciones y el impacto demostrado. Una señal informativa o una hipótesis no equivale a una vulnerabilidad confirmada; respeto el alcance y el proceso de divulgación de cada proyecto.
 
+---
+
 ## Contacto
 
-- GitHub: [@javier20dev25](https://github.com/javier20dev25)
-- Sentinel Cloud: [sentinel-psi-nine.vercel.app](https://sentinel-psi-nine.vercel.app/)
-- Correo: `sleytherjavier2025@gmail.com`
+- **Agencia:** NIGHTTRACE Security Intelligence (`nighttracesec@gmail.com`)
+- **Sitio NIGHTTRACE:** [sentinel-psi-nine.vercel.app/nighttrace](https://sentinel-psi-nine.vercel.app/nighttrace)
+- **Plataforma Sentinel:** [sentinel-psi-nine.vercel.app](https://sentinel-psi-nine.vercel.app/)
+- **NOARTEX:** [github.com/javier20dev25/NOARTEX](https://github.com/javier20dev25/NOARTEX) · [Documentación](https://sentinel-psi-nine.vercel.app/noartex)
+- **GitHub:** [@javier20dev25](https://github.com/javier20dev25)
+- **Correo personal:** `sleytherjavier2025@gmail.com`
